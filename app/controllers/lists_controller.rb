@@ -1,4 +1,5 @@
 class ListsController < ApplicationController
+  before_action :authentication_required
 
   def index
     @list = List.new
@@ -20,6 +21,7 @@ class ListsController < ApplicationController
       render :index
     end
   end
+  
   private
 
     def list_params # strong parameters
