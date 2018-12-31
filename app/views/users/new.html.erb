@@ -5,6 +5,9 @@
     <%= form_for @user do |f| %>
 
       <%= f.text_field :email, class: "new-todo", placeholder: "Register with your Email!!!" %>
+      <%= f.text_field :password, class: "new-todo", placeholder: "Choose a password" %>
+      
+      <%= f.submit %>
 
     <% end %>
 
