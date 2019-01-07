@@ -7,9 +7,13 @@
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
 Item.create!([
-  {description: "Cholent", list_id: 1, status: 1},
-  {description: "Kugel", list_id: 1, status: 1}
+  {description: "milk", list_id: 1, status: 0},
+  {description: "Converse Sneakers", list_id: 1, status: 0},
+  {description: "Cholent", list_id: 1, status: 0},
+  {description: "a new item", list_id: 2, status: 0},
+  {description: "another item", list_id: 2, status: 0}
 ])
 List.create!([
-  {name: "Shopping List"}
+  {name: "Shopping List"},
+  {name: "a new list"}
 ])

@@ -21,7 +21,7 @@ class ListsController < ApplicationController
       render :index
     end
   end
-  
+
   private
 
     def list_params # strong parameters
