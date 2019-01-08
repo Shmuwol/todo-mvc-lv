@@ -8137,3 +8137,842 @@ Started GET "/login" for 127.0.0.1 at 2019-01-07 13:13:41 -0500
 Processing by SessionsController#new as HTML
   Rendered sessions/new.html.erb within layouts/application (1.6ms)
 Completed 200 OK in 52ms (Views: 50.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/github" for 127.0.0.1 at 2019-01-07 13:27:37 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.8ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+Started GET "/auth/github/callback?code=ff74f911d57eb7140151&state=27f13f840908811151c8c4c611256bf72740b57dc9e4a745" for 127.0.0.1 at 2019-01-07 13:27:38 -0500
+
+ActionController::RoutingError (undefined method `enable' for ApplicationController:Class):
+  app/controllers/application_controller.rb:6:in `<class:ApplicationController>'
+  app/controllers/application_controller.rb:1:in `<top (required)>'
+  app/controllers/sessions_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /Users/shmullywolfson/.rvm/gems/ruby-2.4.1/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.9ms)
+  Rendered /Users/shmullywolfson/.rvm/gems/ruby-2.4.1/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.9ms)
+  Rendered /Users/shmullywolfson/.rvm/gems/ruby-2.4.1/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (15.2ms)
+  Rendered /Users/shmullywolfson/.rvm/gems/ruby-2.4.1/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /Users/shmullywolfson/.rvm/gems/ruby-2.4.1/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (193.8ms)
+  Rendered /Users/shmullywolfson/.rvm/gems/ruby-2.4.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.8ms)
+  Rendered /Users/shmullywolfson/.rvm/gems/ruby-2.4.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendered /Users/shmullywolfson/.rvm/gems/ruby-2.4.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendered /Users/shmullywolfson/.rvm/gems/ruby-2.4.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.8ms)
+  Rendered /Users/shmullywolfson/.rvm/gems/ruby-2.4.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (116.5ms)
+  Rendered /Users/shmullywolfson/.rvm/gems/ruby-2.4.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.8ms)
+  Rendered /Users/shmullywolfson/.rvm/gems/ruby-2.4.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.9ms)
+  Rendered /Users/shmullywolfson/.rvm/gems/ruby-2.4.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (245.8ms)
+
+
+Started GET "/auth/github" for ::1 at 2019-01-07 13:29:02 -0500
+
+
+Started GET "/auth/github/callback?code=c6c81ca3c96ab770a8b5&state=8fbc2541dae05ad86360b710d3c3931509bf1d1c7cca34eb" for ::1 at 2019-01-07 13:29:03 -0500
+
+ActionController::RoutingError (undefined local variable or method `sessions' for ApplicationController:Class):
+  app/controllers/application_controller.rb:6:in `<class:ApplicationController>'
+  app/controllers/application_controller.rb:1:in `<top (required)>'
+  app/controllers/sessions_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /Users/shmullywolfson/.rvm/gems/ruby-2.4.1/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendered /Users/shmullywolfson/.rvm/gems/ruby-2.4.1/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.1ms)
+  Rendered /Users/shmullywolfson/.rvm/gems/ruby-2.4.1/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /Users/shmullywolfson/.rvm/gems/ruby-2.4.1/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/shmullywolfson/.rvm/gems/ruby-2.4.1/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (136.2ms)
+  Rendered /Users/shmullywolfson/.rvm/gems/ruby-2.4.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/shmullywolfson/.rvm/gems/ruby-2.4.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/shmullywolfson/.rvm/gems/ruby-2.4.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/shmullywolfson/.rvm/gems/ruby-2.4.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/shmullywolfson/.rvm/gems/ruby-2.4.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (82.1ms)
+  Rendered /Users/shmullywolfson/.rvm/gems/ruby-2.4.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/shmullywolfson/.rvm/gems/ruby-2.4.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/shmullywolfson/.rvm/gems/ruby-2.4.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (189.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-07 13:40:12 -0500
+Processing by ListsController#index as HTML
+Redirected to http://localhost:3000/login
+Filter chain halted as :authentication_required rendered or redirected
+Completed 302 Found in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2019-01-07 13:40:12 -0500
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 539ms (Views: 538.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/github" for 127.0.0.1 at 2019-01-07 13:40:20 -0500
+
+
+Started GET "/auth/github/callback?code=cc768c139a8e9a51d33d&state=0b9dbd8f8037a08ca015117c8ea4bbcfa45b15355d6b52a6" for 127.0.0.1 at 2019-01-07 13:40:20 -0500
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"cc768c139a8e9a51d33d", "state"=>"0b9dbd8f8037a08ca015117c8ea4bbcfa45b15355d6b52a6", "provider"=>"github"}
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT 1  [["email", "shmulywolfson@gmail.com"]]
+Redirected to http://localhost:3000/
+Completed 302 Found in 27ms (ActiveRecord: 1.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-07 13:40:21 -0500
+Processing by ListsController#index as HTML
+Redirected to http://localhost:3000/login
+Filter chain halted as :authentication_required rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2019-01-07 13:40:21 -0500
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 42ms (Views: 41.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/github" for 127.0.0.1 at 2019-01-07 13:44:22 -0500
+
+
+Started GET "/auth/github/callback?code=d110cfe6e1611b213fcf&state=7902bdba0ded8afd813b5bb7a6c49926478f83399c585f0d" for 127.0.0.1 at 2019-01-07 13:44:22 -0500
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"d110cfe6e1611b213fcf", "state"=>"7902bdba0ded8afd813b5bb7a6c49926478f83399c585f0d", "provider"=>"github"}
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT 1[0m  [["email", "shmulywolfson@gmail.com"]]
+Redirected to http://localhost:3000/
+Completed 302 Found in 74449ms (ActiveRecord: 1.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-07 13:45:37 -0500
+Processing by ListsController#index as HTML
+Redirected to http://localhost:3000/login
+Filter chain halted as :authentication_required rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2019-01-07 13:45:37 -0500
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 69ms (Views: 67.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-07 13:45:43 -0500
+Processing by ListsController#index as HTML
+Redirected to http://localhost:3000/login
+Filter chain halted as :authentication_required rendered or redirected
+Completed 302 Found in 3ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2019-01-07 13:45:43 -0500
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 59ms (Views: 58.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/github" for 127.0.0.1 at 2019-01-07 13:45:46 -0500
+
+
+Started GET "/auth/github/callback?code=cb61c757342e4e5e33ab&state=028c84059fbd4390d74745986b12ccc810a016542149f64b" for 127.0.0.1 at 2019-01-07 13:45:46 -0500
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"cb61c757342e4e5e33ab", "state"=>"028c84059fbd4390d74745986b12ccc810a016542149f64b", "provider"=>"github"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT 1  [["email", "shmulywolfson@gmail.com"]]
+Redirected to http://localhost:3000/
+Completed 302 Found in 394337ms (ActiveRecord: 1.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-07 13:52:21 -0500
+Processing by ListsController#index as HTML
+Redirected to http://localhost:3000/login
+Filter chain halted as :authentication_required rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2019-01-07 13:52:21 -0500
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 39ms (Views: 38.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/github" for 127.0.0.1 at 2019-01-07 13:52:33 -0500
+
+
+Started GET "/auth/github/callback?code=ae7ffeecfb167a39643f&state=af42b4638d0cbe4c38ebc17df58b0a00ff1e5fee5f0d8a0b" for 127.0.0.1 at 2019-01-07 13:52:34 -0500
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"ae7ffeecfb167a39643f", "state"=>"af42b4638d0cbe4c38ebc17df58b0a00ff1e5fee5f0d8a0b", "provider"=>"github"}
+  [1m[36mUser Load (0.8ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT 1[0m  [["email", "shmulywolfson@gmail.com"]]
+Redirected to http://localhost:3000/
+Completed 302 Found in 13ms (ActiveRecord: 1.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-07 13:52:34 -0500
+Processing by ListsController#index as HTML
+Redirected to http://localhost:3000/login
+Filter chain halted as :authentication_required rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2019-01-07 13:52:34 -0500
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 38ms (Views: 36.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/github" for 127.0.0.1 at 2019-01-07 13:54:21 -0500
+
+
+Started GET "/auth/github/callback?code=f67dfa94e511660911b7&state=6ed111508c06409b887f554f62163f74bae9326ec58dc096" for 127.0.0.1 at 2019-01-07 13:54:22 -0500
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"f67dfa94e511660911b7", "state"=>"6ed111508c06409b887f554f62163f74bae9326ec58dc096", "provider"=>"github"}
+Completed 500 Internal Server Error in 26ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `find_or_create_by_omniauth' for #<Class:0x007f84294b3138>
+Did you mean?  find_or_create_by):
+  app/controllers/sessions_controller.rb:8:in `create'
+
+
+  Rendered /Users/shmullywolfson/.rvm/gems/ruby-2.4.1/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.5ms)
+  Rendered /Users/shmullywolfson/.rvm/gems/ruby-2.4.1/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (10.7ms)
+  Rendered /Users/shmullywolfson/.rvm/gems/ruby-2.4.1/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /Users/shmullywolfson/.rvm/gems/ruby-2.4.1/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (119.6ms)
+  Rendered /Users/shmullywolfson/.rvm/gems/ruby-2.4.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.8ms)
+  Rendered /Users/shmullywolfson/.rvm/gems/ruby-2.4.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendered /Users/shmullywolfson/.rvm/gems/ruby-2.4.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (1.0ms)
+  Rendered /Users/shmullywolfson/.rvm/gems/ruby-2.4.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.7ms)
+  Rendered /Users/shmullywolfson/.rvm/gems/ruby-2.4.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (93.1ms)
+  Rendered /Users/shmullywolfson/.rvm/gems/ruby-2.4.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.8ms)
+  Rendered /Users/shmullywolfson/.rvm/gems/ruby-2.4.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.9ms)
+  Rendered /Users/shmullywolfson/.rvm/gems/ruby-2.4.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (207.8ms)
+
+
+Started GET "/" for ::1 at 2019-01-07 14:11:41 -0500
+Processing by ListsController#index as HTML
+Redirected to http://localhost:3000/login
+Filter chain halted as :authentication_required rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for ::1 at 2019-01-07 14:11:41 -0500
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 46ms (Views: 45.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/github" for ::1 at 2019-01-07 14:11:43 -0500
+
+
+Started GET "/auth/github/callback?code=fe737075719823d8d89e&state=92de2c8df456f5df644166ea9ffae0f3aaace90b268c07fd" for ::1 at 2019-01-07 14:11:44 -0500
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"fe737075719823d8d89e", "state"=>"92de2c8df456f5df644166ea9ffae0f3aaace90b268c07fd", "provider"=>"github"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT 1  [["email", "shmulywolfson@gmail.com"]]
+Redirected to http://localhost:3000/
+Completed 302 Found in 6ms (ActiveRecord: 0.6ms)
+
+
+Started GET "/" for ::1 at 2019-01-07 14:11:44 -0500
+Processing by ListsController#index as HTML
+Redirected to http://localhost:3000/login
+Filter chain halted as :authentication_required rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for ::1 at 2019-01-07 14:11:44 -0500
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 16ms (Views: 15.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/github" for ::1 at 2019-01-07 14:11:46 -0500
+
+
+Started GET "/auth/github/callback?code=1fed2acb1141ce56d559&state=b9cc2861be807948a17e644b71c525233a9872930d3d757c" for ::1 at 2019-01-07 14:11:46 -0500
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"1fed2acb1141ce56d559", "state"=>"b9cc2861be807948a17e644b71c525233a9872930d3d757c", "provider"=>"github"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT 1[0m  [["email", "shmulywolfson@gmail.com"]]
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms)
+
+
+Started GET "/" for ::1 at 2019-01-07 14:11:47 -0500
+Processing by ListsController#index as HTML
+Redirected to http://localhost:3000/login
+Filter chain halted as :authentication_required rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for ::1 at 2019-01-07 14:11:47 -0500
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 16ms (Views: 15.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-01-07 14:12:05 -0500
+Processing by ListsController#index as HTML
+Redirected to http://localhost:3000/login
+Filter chain halted as :authentication_required rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for ::1 at 2019-01-07 14:12:05 -0500
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 29ms (Views: 28.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-01-07 14:12:15 -0500
+Processing by ListsController#index as HTML
+Redirected to http://localhost:3000/login
+Filter chain halted as :authentication_required rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for ::1 at 2019-01-07 14:12:15 -0500
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 20ms (Views: 20.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/logout" for ::1 at 2019-01-07 14:12:20 -0500
+Processing by SessionsController#destroy as HTML
+Redirected to http://localhost:3000/login
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/github" for ::1 at 2019-01-07 14:12:25 -0500
+
+
+Started GET "/auth/github/callback?code=965da3872bfc504b76a7&state=fdb715acdfbc002b71588d77b91c5d0f6d641b0fe585d335" for ::1 at 2019-01-07 14:12:29 -0500
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"965da3872bfc504b76a7", "state"=>"fdb715acdfbc002b71588d77b91c5d0f6d641b0fe585d335", "provider"=>"github"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT 1  [["email", "shmulywolfson@gmail.com"]]
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/login" for ::1 at 2019-01-07 14:12:29 -0500
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 16ms (Views: 15.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/github" for ::1 at 2019-01-07 14:15:13 -0500
+
+
+Started GET "/auth/github/callback?code=c3bb55e76c72e0c12e03&state=f56f3072a2b82e640d35f42891694e3884cc154645c6c198" for ::1 at 2019-01-07 14:15:14 -0500
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"c3bb55e76c72e0c12e03", "state"=>"f56f3072a2b82e640d35f42891694e3884cc154645c6c198", "provider"=>"github"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT 1[0m  [["email", "shmulywolfson@gmail.com"]]
+Redirected to http://localhost:3000/
+Completed 302 Found in 10ms (ActiveRecord: 1.1ms)
+
+
+Started GET "/" for ::1 at 2019-01-07 14:15:14 -0500
+Processing by ListsController#index as HTML
+Redirected to http://localhost:3000/login
+Filter chain halted as :authentication_required rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for ::1 at 2019-01-07 14:15:14 -0500
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 39ms (Views: 37.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/github/callback?code=f67dfa94e511660911b7&state=6ed111508c06409b887f554f62163f74bae9326ec58dc096" for 127.0.0.1 at 2019-01-07 14:17:44 -0500
+
+OAuth2::Error (bad_verification_code: The code passed is incorrect or expired.
+error=bad_verification_code&error_description=The+code+passed+is+incorrect+or+expired.&error_uri=https%3A%2F%2Fdeveloper.github.com%2Fapps%2Fmanaging-oauth-apps%2Ftroubleshooting-oauth-app-access-token-request-errors%2F%23bad-verification-code):
+  oauth2 (1.4.1) lib/oauth2/client.rb:149:in `get_token'
+  oauth2 (1.4.1) lib/oauth2/strategy/auth_code.rb:30:in `get_token'
+  omniauth-oauth2 (1.6.0) lib/omniauth/strategies/oauth2.rb:89:in `build_access_token'
+  omniauth-oauth2 (1.6.0) lib/omniauth/strategies/oauth2.rb:73:in `callback_phase'
+  omniauth (1.9.0) lib/omniauth/strategy.rb:238:in `callback_call'
+  omniauth (1.9.0) lib/omniauth/strategy.rb:189:in `call!'
+  omniauth (1.9.0) lib/omniauth/strategy.rb:169:in `call'
+  omniauth (1.9.0) lib/omniauth/builder.rb:64:in `call'
+  rack (1.6.11) lib/rack/etag.rb:24:in `call'
+  rack (1.6.11) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.11) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.8) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.8) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.11) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.11) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.8) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.8) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:653:in `call'
+  activerecord (4.2.8) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.2.8) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.8) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.8) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.8) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.8) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.8) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.8) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.11) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.11) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.8) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.11) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.8) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.11) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.8) lib/rails/engine.rb:518:in `call'
+  railties (4.2.8) lib/rails/application.rb:165:in `call'
+  rack (1.6.11) lib/rack/lock.rb:17:in `call'
+  rack (1.6.11) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.11) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/shmullywolfson/.rvm/rubies/ruby-2.4.1/lib/ruby/2.4.0/webrick/httpserver.rb:140:in `service'
+  /Users/shmullywolfson/.rvm/rubies/ruby-2.4.1/lib/ruby/2.4.0/webrick/httpserver.rb:96:in `run'
+  /Users/shmullywolfson/.rvm/rubies/ruby-2.4.1/lib/ruby/2.4.0/webrick/server.rb:290:in `block in start_thread'
+
+
+  Rendered /Users/shmullywolfson/.rvm/gems/ruby-2.4.1/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.2ms)
+  Rendered /Users/shmullywolfson/.rvm/gems/ruby-2.4.1/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.9ms)
+  Rendered /Users/shmullywolfson/.rvm/gems/ruby-2.4.1/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.1ms)
+  Rendered /Users/shmullywolfson/.rvm/gems/ruby-2.4.1/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (105.5ms)
+  Rendered /Users/shmullywolfson/.rvm/gems/ruby-2.4.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (1.0ms)
+  Rendered /Users/shmullywolfson/.rvm/gems/ruby-2.4.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.9ms)
+  Rendered /Users/shmullywolfson/.rvm/gems/ruby-2.4.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.9ms)
+  Rendered /Users/shmullywolfson/.rvm/gems/ruby-2.4.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.1ms)
+  Rendered /Users/shmullywolfson/.rvm/gems/ruby-2.4.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (116.6ms)
+  Rendered /Users/shmullywolfson/.rvm/gems/ruby-2.4.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.8ms)
+  Rendered /Users/shmullywolfson/.rvm/gems/ruby-2.4.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (14.0ms)
+  Rendered /Users/shmullywolfson/.rvm/gems/ruby-2.4.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (284.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-07 14:17:50 -0500
+Processing by ListsController#index as HTML
+Redirected to http://localhost:3000/login
+Filter chain halted as :authentication_required rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2019-01-07 14:17:50 -0500
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 48ms (Views: 47.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/github" for 127.0.0.1 at 2019-01-07 14:17:53 -0500
+
+
+Started GET "/auth/github/callback?code=0fee3796b6f2af0673e6&state=29b957e88be85f34cc3b44e51a48505ce92354327f644f95" for 127.0.0.1 at 2019-01-07 14:17:53 -0500
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"0fee3796b6f2af0673e6", "state"=>"29b957e88be85f34cc3b44e51a48505ce92354327f644f95", "provider"=>"github"}
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT 1  [["email", "shmulywolfson@gmail.com"]]
+Redirected to http://localhost:3000/
+Completed 302 Found in 18ms (ActiveRecord: 2.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-07 14:17:54 -0500
+Processing by ListsController#index as HTML
+Redirected to http://localhost:3000/login
+Filter chain halted as :authentication_required rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2019-01-07 14:17:54 -0500
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 31ms (Views: 30.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for ::1 at 2019-01-07 14:20:35 -0500
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 21ms (Views: 20.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-01-07 14:20:37 -0500
+Processing by ListsController#index as HTML
+Redirected to http://localhost:3000/login
+Filter chain halted as :authentication_required rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for ::1 at 2019-01-07 14:20:38 -0500
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 26ms (Views: 25.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-01-07 14:20:50 -0500
+Processing by ListsController#index as HTML
+Redirected to http://localhost:3000/login
+Filter chain halted as :authentication_required rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for ::1 at 2019-01-07 14:20:50 -0500
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 17ms (Views: 16.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for ::1 at 2019-01-07 14:20:55 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 31ms (Views: 30.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for ::1 at 2019-01-07 14:21:33 -0500
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"YLbeuyKCwy3vlDD7+BHJz5vabO9wt2ogAsTjCMo0wbTSzC+36cKqxGw9/Z4tyOldqS0NX5vzpaPSef1+CGlMXQ==", "user"=>{"email"=>"Eliezer@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Create User"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."email" = 'Eliezer@gmail.com' LIMIT 1
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "users" ("email", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["email", "Eliezer@gmail.com"], ["password_digest", "$2a$10$Ia7DQpbIxlkWG4qFMuoi/Ob/MNQ78VUqlfF.fNnZDh3i7CqtFoq1S"], ["created_at", "2019-01-07 19:21:33.307803"], ["updated_at", "2019-01-07 19:21:33.307803"]]
+  [1m[35m (0.9ms)[0m  commit transaction
+Redirected to http://localhost:3000/
+Completed 302 Found in 80ms (ActiveRecord: 2.0ms)
+
+
+Started POST "/sessions" for ::1 at 2019-01-07 14:21:55 -0500
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"7ZPrXPRz6e0MJG9tR2UJpsd4N4MJxXvcLa4tZzbJAy9f6RpQPzOABI+NogiSvCk09Y9WM+KBtF/9EzMR9JSOxg==", "email"=>"Eliezer@gmail.com", "password"=>"[FILTERED]", "commit"=>"Save changes"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT 1[0m  [["email", "Eliezer@gmail.com"]]
+Redirected to http://localhost:3000/
+Completed 302 Found in 65ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2019-01-07 14:21:55 -0500
+Processing by ListsController#index as HTML
+Redirected to http://localhost:3000/login
+Filter chain halted as :authentication_required rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for ::1 at 2019-01-07 14:21:55 -0500
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 16ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for ::1 at 2019-01-07 14:22:16 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 19ms (Views: 18.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for ::1 at 2019-01-07 14:22:26 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 19ms (Views: 18.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for ::1 at 2019-01-07 14:22:43 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 17ms (Views: 16.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for ::1 at 2019-01-07 14:22:52 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 19ms (Views: 18.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for ::1 at 2019-01-07 14:25:04 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 22ms (Views: 20.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for ::1 at 2019-01-07 14:25:33 -0500
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"0jGJ60+DtuixniAhsRhlLZeqzvH0p4oVuOE5W+FW3cdgS3jnhMPfATI37URkwUW/pV2vQR/jRZZoXCctIwtQLg==", "user"=>{"email"=>"rachel@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."email" = 'rachel@gmail.com' LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("email", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["email", "rachel@gmail.com"], ["password_digest", "$2a$10$byPbk8whON1PPEzKXRsw/u3NjoIYCTTTpd3RhBG7kWAD4wCjJt5bS"], ["created_at", "2019-01-07 19:25:33.772759"], ["updated_at", "2019-01-07 19:25:33.772759"]]
+  [1m[36m (0.7ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 66ms (ActiveRecord: 1.2ms)
+
+
+Started GET "/" for ::1 at 2019-01-07 14:25:33 -0500
+Processing by ListsController#index as HTML
+Redirected to http://localhost:3000/login
+Filter chain halted as :authentication_required rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for ::1 at 2019-01-07 14:25:33 -0500
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 20ms (Views: 19.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/sessions" for ::1 at 2019-01-07 14:25:48 -0500
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"0MgfVNG6j+1S5f+JKZEYbGKAOTvqDN3Qu/WOOi+qbsRisu5YGvrmBNFMMuz8SDj+UHdYiwFIElNrSJBM7ffjLQ==", "email"=>"rachel@gmail.com", "password"=>"[FILTERED]", "commit"=>"Save changes"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT 1  [["email", "rachel@gmail.com"]]
+Redirected to http://localhost:3000/
+Completed 302 Found in 66ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2019-01-07 14:25:48 -0500
+Processing by ListsController#index as HTML
+Redirected to http://localhost:3000/login
+Filter chain halted as :authentication_required rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for ::1 at 2019-01-07 14:25:48 -0500
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 17ms (Views: 16.2ms | ActiveRecord: 0.0ms)
+  [1m[36mSQL (6.2ms)[0m  [1mDELETE FROM "users"[0m
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-08 12:23:59 -0500
+Processing by ListsController#index as HTML
+  [1m[36mList Load (0.7ms)[0m  [1mSELECT "lists".* FROM "lists"[0m
+  [1m[35mUser Load (0.6ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 12]]
+  Rendered lists/index.html.erb within layouts/application (31.1ms)
+Completed 500 Internal Server Error in 92ms (ActiveRecord: 3.8ms)
+
+ActiveRecord::RecordNotFound (Couldn't find User with 'id'=12):
+  app/controllers/application_controller.rb:20:in `current_user'
+  app/views/lists/index.html.erb:27:in `_app_views_lists_index_html_erb___1738912198086056838_70102757319800'
+
+
+  Rendered /Users/shmullywolfson/.rvm/gems/ruby-2.4.1/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_source.erb (43.9ms)
+  Rendered /Users/shmullywolfson/.rvm/gems/ruby-2.4.1/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (6.3ms)
+  Rendered /Users/shmullywolfson/.rvm/gems/ruby-2.4.1/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.2ms)
+  Rendered /Users/shmullywolfson/.rvm/gems/ruby-2.4.1/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (160.5ms)
+  Rendered /Users/shmullywolfson/.rvm/gems/ruby-2.4.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (1.4ms)
+  Rendered /Users/shmullywolfson/.rvm/gems/ruby-2.4.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.9ms)
+  Rendered /Users/shmullywolfson/.rvm/gems/ruby-2.4.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.8ms)
+  Rendered /Users/shmullywolfson/.rvm/gems/ruby-2.4.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.8ms)
+  Rendered /Users/shmullywolfson/.rvm/gems/ruby-2.4.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (106.0ms)
+  Rendered /Users/shmullywolfson/.rvm/gems/ruby-2.4.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/shmullywolfson/.rvm/gems/ruby-2.4.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.1ms)
+  Rendered /Users/shmullywolfson/.rvm/gems/ruby-2.4.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (245.8ms)
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2019-01-08 12:24:47 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for 127.0.0.1 at 2019-01-08 12:24:48 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-08 12:24:50 -0500
+Processing by ListsController#index as HTML
+  [1m[35mList Load (0.4ms)[0m  SELECT "lists".* FROM "lists"
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 12]]
+  Rendered lists/index.html.erb within layouts/application (50.8ms)
+Completed 500 Internal Server Error in 105ms (ActiveRecord: 2.5ms)
+
+ActiveRecord::RecordNotFound (Couldn't find User with 'id'=12):
+  app/controllers/application_controller.rb:20:in `current_user'
+  app/views/lists/index.html.erb:27:in `_app_views_lists_index_html_erb___2056220454503820873_70124730633700'
+
+
+  Rendered /Users/shmullywolfson/.rvm/gems/ruby-2.4.1/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.9ms)
+  Rendered /Users/shmullywolfson/.rvm/gems/ruby-2.4.1/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.4ms)
+  Rendered /Users/shmullywolfson/.rvm/gems/ruby-2.4.1/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /Users/shmullywolfson/.rvm/gems/ruby-2.4.1/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (123.4ms)
+  Rendered /Users/shmullywolfson/.rvm/gems/ruby-2.4.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /Users/shmullywolfson/.rvm/gems/ruby-2.4.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.8ms)
+  Rendered /Users/shmullywolfson/.rvm/gems/ruby-2.4.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/shmullywolfson/.rvm/gems/ruby-2.4.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.7ms)
+  Rendered /Users/shmullywolfson/.rvm/gems/ruby-2.4.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (107.1ms)
+  Rendered /Users/shmullywolfson/.rvm/gems/ruby-2.4.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.8ms)
+  Rendered /Users/shmullywolfson/.rvm/gems/ruby-2.4.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.8ms)
+  Rendered /Users/shmullywolfson/.rvm/gems/ruby-2.4.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (242.0ms)
+
+
+Started GET "/logout" for 127.0.0.1 at 2019-01-08 12:25:40 -0500
+Processing by SessionsController#destroy as HTML
+Redirected to http://localhost:3000/login
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2019-01-08 12:25:40 -0500
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 66ms (Views: 65.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/github" for 127.0.0.1 at 2019-01-08 12:25:43 -0500
+
+
+Started GET "/auth/github/callback?code=b34b56fc4cfac5415f38&state=3c1067022b0730d6b1682370bb2a5f2db4dd8f36385db53b" for 127.0.0.1 at 2019-01-08 12:25:44 -0500
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"b34b56fc4cfac5415f38", "state"=>"3c1067022b0730d6b1682370bb2a5f2db4dd8f36385db53b", "provider"=>"github"}
+Completed 500 Internal Server Error in 21ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `find_or_create_by_omniauth' for #<Class:0x007f8e65a791f8>
+Did you mean?  find_or_create_by):
+  app/controllers/sessions_controller.rb:7:in `create'
+
+
+  Rendered /Users/shmullywolfson/.rvm/gems/ruby-2.4.1/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_source.erb (29.3ms)
+  Rendered /Users/shmullywolfson/.rvm/gems/ruby-2.4.1/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (10.3ms)
+  Rendered /Users/shmullywolfson/.rvm/gems/ruby-2.4.1/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.8ms)
+  Rendered /Users/shmullywolfson/.rvm/gems/ruby-2.4.1/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (147.2ms)
+  Rendered /Users/shmullywolfson/.rvm/gems/ruby-2.4.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (2.0ms)
+  Rendered /Users/shmullywolfson/.rvm/gems/ruby-2.4.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (2.2ms)
+  Rendered /Users/shmullywolfson/.rvm/gems/ruby-2.4.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendered /Users/shmullywolfson/.rvm/gems/ruby-2.4.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (2.1ms)
+  Rendered /Users/shmullywolfson/.rvm/gems/ruby-2.4.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (101.4ms)
+  Rendered /Users/shmullywolfson/.rvm/gems/ruby-2.4.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.7ms)
+  Rendered /Users/shmullywolfson/.rvm/gems/ruby-2.4.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.0ms)
+  Rendered /Users/shmullywolfson/.rvm/gems/ruby-2.4.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (220.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-08 12:26:10 -0500
+Processing by ListsController#index as HTML
+  [1m[35mList Load (0.4ms)[0m  SELECT "lists".* FROM "lists"
+  Rendered lists/index.html.erb within layouts/application (8.1ms)
+Completed 500 Internal Server Error in 30ms (ActiveRecord: 1.2ms)
+
+ActionView::Template::Error (undefined method `email' for nil:NilClass):
+    24:   </footer>
+    25: </section>
+    26: <footer class="info">
+    27:   <p>You're logged in as: <%= current_user.email %></p>
+    28:   <p> <%= link_to "Logout", logout_path %></p>
+    29: </footer>
+  app/views/lists/index.html.erb:27:in `_app_views_lists_index_html_erb___2056220454503820873_70124730633700'
+
+
+  Rendered /Users/shmullywolfson/.rvm/gems/ruby-2.4.1/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.6ms)
+  Rendered /Users/shmullywolfson/.rvm/gems/ruby-2.4.1/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.9ms)
+  Rendered /Users/shmullywolfson/.rvm/gems/ruby-2.4.1/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Users/shmullywolfson/.rvm/gems/ruby-2.4.1/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (110.0ms)
+  Rendered /Users/shmullywolfson/.rvm/gems/ruby-2.4.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (1.0ms)
+  Rendered /Users/shmullywolfson/.rvm/gems/ruby-2.4.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (1.1ms)
+  Rendered /Users/shmullywolfson/.rvm/gems/ruby-2.4.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/shmullywolfson/.rvm/gems/ruby-2.4.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.7ms)
+  Rendered /Users/shmullywolfson/.rvm/gems/ruby-2.4.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (97.8ms)
+  Rendered /Users/shmullywolfson/.rvm/gems/ruby-2.4.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.7ms)
+  Rendered /Users/shmullywolfson/.rvm/gems/ruby-2.4.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.8ms)
+  Rendered /Users/shmullywolfson/.rvm/gems/ruby-2.4.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (215.3ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2019-01-08 12:26:31 -0500
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 40ms (Views: 38.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/github" for 127.0.0.1 at 2019-01-08 12:26:34 -0500
+
+
+Started GET "/auth/github/callback?code=d8c6a486b5e0d529b5ac&state=236175c13702d931fd5d0d8b1111bf9a9fc74656a42be736" for 127.0.0.1 at 2019-01-08 12:26:34 -0500
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"d8c6a486b5e0d529b5ac", "state"=>"236175c13702d931fd5d0d8b1111bf9a9fc74656a42be736", "provider"=>"github"}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."email" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["email", "shmulywolfson@gmail.com"]]
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mUser Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."email" = 'shmulywolfson@gmail.com' LIMIT 1[0m
+  [1m[35mSQL (1.6ms)[0m  INSERT INTO "users" ("email", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["email", "shmulywolfson@gmail.com"], ["password_digest", "$2a$10$z.3C9C7m./5E.d61zZ0YxOaWtGw.mDt4Z2ytQuYF/yHWAuw5JanP."], ["created_at", "2019-01-08 17:26:35.708713"], ["updated_at", "2019-01-08 17:26:35.708713"]]
+  [1m[36m (1.4ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 98ms (ActiveRecord: 4.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-08 12:26:35 -0500
+Processing by ListsController#index as HTML
+  [1m[35mList Load (0.3ms)[0m  SELECT "lists".* FROM "lists"
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 15]]
+  Rendered lists/index.html.erb within layouts/application (5.8ms)
+Completed 200 OK in 33ms (Views: 30.5ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2019-01-08 12:27:53 -0500
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 36ms (Views: 35.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/todomvc-base.self-9eb594d8e952a551ecb29c785c324969df19668ea6e14ba69b758af79baca809.css?body=1" for 127.0.0.1 at 2019-01-08 12:27:53 -0500
+
+
+Started GET "/assets/items.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2019-01-08 12:27:53 -0500
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2019-01-08 12:27:53 -0500
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2019-01-08 12:27:53 -0500
+
+
+Started GET "/assets/lists.self-9d4b2205ff736a0fd786f2190e96956207bdff8a1be9030fbf6c080af703dc13.js?body=1" for 127.0.0.1 at 2019-01-08 12:27:53 -0500
+
+
+Started GET "/assets/application.self-860170c7ab1ca088027e93d68592059edd583aacf6fd47eea1c1c5332b5a9db9.css?body=1" for 127.0.0.1 at 2019-01-08 12:27:53 -0500
+
+
+Started GET "/assets/lists.self-5e64df0201ac31cda15d2138ec18719920a1502ebf642aebcddafc969bfe3284.css?body=1" for 127.0.0.1 at 2019-01-08 12:27:53 -0500
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2019-01-08 12:27:53 -0500
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2019-01-08 12:27:53 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for 127.0.0.1 at 2019-01-08 12:27:53 -0500
+
+
+Started GET "/lists/1" for 127.0.0.1 at 2019-01-08 12:28:23 -0500
+Processing by ListsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mList Load (0.4ms)[0m  SELECT  "lists".* FROM "lists" WHERE "lists"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mItem Load (0.5ms)[0m  [1mSELECT "items".* FROM "items" WHERE "items"."list_id" = ?[0m  [["list_id", 1]]
+  Rendered items/_item_li.html.erb (10.0ms)
+  Rendered lists/show.html.erb within layouts/application (46.0ms)
+Completed 200 OK in 88ms (Views: 71.3ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/lists/2" for 127.0.0.1 at 2019-01-08 12:28:27 -0500
+Processing by ListsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mList Load (0.3ms)[0m  SELECT  "lists".* FROM "lists" WHERE "lists"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mItem Load (0.3ms)[0m  [1mSELECT "items".* FROM "items" WHERE "items"."list_id" = ?[0m  [["list_id", 2]]
+  Rendered items/_item_li.html.erb (2.9ms)
+  Rendered lists/show.html.erb within layouts/application (8.8ms)
+Completed 200 OK in 37ms (Views: 34.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/logout" for 127.0.0.1 at 2019-01-08 12:28:33 -0500
+Processing by SessionsController#destroy as HTML
+Redirected to http://localhost:3000/login
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2019-01-08 12:28:33 -0500
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 31ms (Views: 30.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/github" for 127.0.0.1 at 2019-01-08 12:28:36 -0500
+
+
+Started GET "/auth/github/callback?code=09acc76c189bccfe513c&state=b592392a8ca5873b3e1eaa83e092c45621a2a40d0341454d" for 127.0.0.1 at 2019-01-08 12:28:36 -0500
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"09acc76c189bccfe513c", "state"=>"b592392a8ca5873b3e1eaa83e092c45621a2a40d0341454d", "provider"=>"github"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."email" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["email", "shmullywolfson@gmail.com"]]
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.3ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."email" = 'shmullywolfson@gmail.com' LIMIT 1
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO "users" ("email", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["email", "shmullywolfson@gmail.com"], ["password_digest", "$2a$10$pBOuQXyANuwfdsTbQ8xWHef/d9VSPQNdAgaNfH3AayPvOSWp7NNt6"], ["created_at", "2019-01-08 17:28:37.327328"], ["updated_at", "2019-01-08 17:28:37.327328"]]
+  [1m[35m (1.5ms)[0m  commit transaction
+Redirected to http://localhost:3000/
+Completed 302 Found in 74ms (ActiveRecord: 3.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-08 12:28:37 -0500
+Processing by ListsController#index as HTML
+  [1m[36mList Load (0.4ms)[0m  [1mSELECT "lists".* FROM "lists"[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 16]]
+  Rendered lists/index.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 42ms (Views: 39.9ms | ActiveRecord: 0.6ms)
